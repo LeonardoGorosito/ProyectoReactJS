@@ -1,0 +1,26 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: rgb(218, 217, 217);
+}
+
+
+.navbar{
+    margin-top: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+} 
+
+.cart{
+    margin-right: 1.5rem;
+    transform: scale(1.2);
+    max-width: 100%;
+    
+    
+}
+
+
+
+

@@ -1,12 +1,20 @@
+import NavBar from "./Components/NavBar/NavBar"
 
-import Menu from './components/Menu/menu' 
+
 
 function App() {
 
   return (
-    < Menu />
+    < NavBar />
+    
+    
+
+
+
 
   )
 }
 
 export default App
+
+
