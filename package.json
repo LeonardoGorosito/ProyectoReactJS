@@ -1,7 +1,8 @@
 {
-  "homepage": "https://leonardogorosito.github.io/ProyectoReactJS/",
+  
   "name": "proyecto-react",
   "private": true,
+  "homepage": "http://LeonardoGorosito.github.io/ProyectoReactJS",
   "version": "0.0.1",
   "type": "module",
   "scripts": {
