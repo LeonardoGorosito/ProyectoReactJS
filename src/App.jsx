@@ -1,5 +1,5 @@
 import NavBar from "./Components/NavBar/NavBar"
-
+ 
 
 
 function App() {
@@ -7,11 +7,7 @@ function App() {
   return (
     < NavBar />
     
-    
-
-
-
-
+  
   )
 }
 
