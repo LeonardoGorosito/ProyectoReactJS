@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "titulo": "Remera - Classic",
+        "descripcion": "Se caracteriza por su corte simple, cuello redondo y manga corta. Suele ser de un color liso, como blanco, negro o gris, y estar confeccionada con algodón o una mezcla de algodón y poliéster..",
+        "categoria": "remeras",
+        "imagen": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRgxNUVl5kkAh-lINhdunrWOmJC5_1ds0-BlxLr81MzKeKT8Y_fyNQ_Pn_l5Rkh",
+        "precio": 1500,
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "titulo": "Remera - Estampada",
+        "descripcion": "Similar a la remera básica, pero con un diseño estampado en la parte frontal o trasera. Los estampados pueden ser de diversos tipos, como logos, frases, imágenes o patrones.",
+        "categoria": "remeras",
+        "imagen": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTRpkEJvXv0D-_KNZZdqGLBDVY1abjHkzSpuDaoI8o3itwfpGKEsvPi-XQV_oMN",
+        "precio": 1800,
+        "stock": 10
+    },
+    {
+        "id": 3,
+        "titulo": "Remera - Corte entallado",
+        "descripcion": "Se ajusta al cuerpo y resalta la figura. Este tipo de remera suele ser más corta que la básica y tener un escote más cerrado.",
+        "categoria": "remeras",
+        "imagen": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT5K0ni_-mUCrSisy8Adc0qIHHTeNT-Vc6QP0Lm1jq7EWBmPAk45E1226Pwqebs",
+        "precio": 2000,
+        "stock": 10
+    },
+
+    {
+    "id": 4,
+    "titulo": "Abrigo - Trench",
+    "descripcion":"Un clásico atemporal que nunca pasa de moda. Es un abrigo largo y fluido, generalmente de gabardina, con un cinturón a la cintura y solapas amplias. El abrigo trench es perfecto para climas fríos y lluviosos, ya que es impermeable y transpirable.",
+    "categoria": "Abrigos",
+    "imagen": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRPZ8rp5M4FETipCgajiH4bUs3J9-lVAv9LdIkL-_piaJ6KWRSaJlEIVZ0dL81p",
+    "precio": 2500,
+    "stock": 1
+    },
+{
+    "id": 5,
+    "titulo": "Abrigo - Plumas",
+    "descripcion": "Un abrigo ligero y cálido, perfecto para el invierno. Está relleno de plumas o plumón, lo que lo convierte en una prenda muy aislante. El abrigo de plumas es ideal para usar en capas, ya que se puede poner sobre otras prendas para mayor calidez.",
+    "categoria": "Abrigos",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsGX58VRial_SlIpqPQbkrmErz2xUMIZ5fWgATZO56kjSQviKWRm5JJziWQ-sg",
+    "precio": 2500,
+    "stock": 10
+},
+{
+    "id": 9,
+    "titulo": "Abrigo - Parka",
+    "descripcion": "Un abrigo corto y resistente, ideal para climas fríos y húmedos. Está hecho de un material impermeable y transpirable, y suele tener una capucha y bolsillos grandes. La parka es perfecta para actividades al aire libre, como senderismo o acampar.",
+    "categoria": "Abrigos",
+    "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMUE0kShVBmxxLjWLXMTsj3qQifqbmw9N6TjMX4LWdUmIQTYQKojuANCbK-P4x",
+    "precio": 2000,
+    "stock": 10
+},
+{
+    "id": 10,
+    "titulo": "Zapatos - Classic",
+    "descripcion": "Un tipo de calzado formal que se usa generalmente para ocasiones especiales. Los zapatos suelen estar hechos de cuero o un material sintético similar y tienen suelas duras.",
+    "imagen": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSS9oVbAfgKLVZ0I6LiDtNQRzLuNVkGnzOBq835TTGR89qD3mVhmHwwS-ricbCP",
+    "precio": 2500,
+    "stock": 10
+},
+{
+    "id": 11,
+    "titulo": "Zapatos - Oxford",
+    "descripcion": "Los zapatos Oxford son un tipo de zapato de vestir formal que se caracteriza por sus cordones cerrados. Son una buena opción para ocasiones especiales o entornos profesionales. Al elegir zapatos Oxford, es importante considerar el material y el color. El cuero es la opción más formal, mientras que la gamuza o el lienzo son más informales. El color negro es el más versátil, pero también puedes encontrar zapatos Oxford en marrón, burdeos y otros colores.",
+    "imagen": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSVDuXpMi6pmBjGyrFpgA-hpe8JwLS_gd4XwoZLiDKzs3P2BuCgdop5h2jqnDbx",
+    "precio": 3000,
+    "stock": 10
+},
+{
+    "id": 12,
+    "titulo": "Botines",
+    "descripcion": "Los botines son un tipo de zapato que cubre el tobillo. Son una buena opción para climas fríos o húmedos. Al elegir botines, es importante considerar la altura del tacón y el material. Los botines con tacones bajos son más cómodos para caminar, mientras que los botines con tacones más altos pueden ser más elegantes. El cuero es la opción más duradera, mientras que la gamuza o el lienzo son más informales.",
+    "imagen": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSSjZGPR5TG_f04PHRVhYkAbI3CXO90f4vdPIOK103vbBSa7z_jdtpvZHkrZG0h",
+    "precio": 2500,
+    "stock": 10
+}
+    
+
+]
