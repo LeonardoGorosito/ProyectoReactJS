@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { pedirDatos } from './helpers/pedirDatos'
+import { pedirDatos } from '../helpers/pedirDatos'
 import ItemList from './ItemList'
 
 
