@@ -58,6 +58,7 @@
     "id": 10,
     "titulo": "Zapatos - Classic",
     "descripcion": "Un tipo de calzado formal que se usa generalmente para ocasiones especiales. Los zapatos suelen estar hechos de cuero o un material sintético similar y tienen suelas duras.",
+    "categoria": "Calzado",
     "imagen": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSS9oVbAfgKLVZ0I6LiDtNQRzLuNVkGnzOBq835TTGR89qD3mVhmHwwS-ricbCP",
     "precio": 2500,
     "stock": 10
@@ -66,6 +67,7 @@
     "id": 11,
     "titulo": "Zapatos - Oxford",
     "descripcion": "Los zapatos Oxford son un tipo de zapato de vestir formal que se caracteriza por sus cordones cerrados. Son una buena opción para ocasiones especiales o entornos profesionales. Al elegir zapatos Oxford, es importante considerar el material y el color. El cuero es la opción más formal, mientras que la gamuza o el lienzo son más informales. El color negro es el más versátil, pero también puedes encontrar zapatos Oxford en marrón, burdeos y otros colores.",
+    "categoria": "Calzado",
     "imagen": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSVDuXpMi6pmBjGyrFpgA-hpe8JwLS_gd4XwoZLiDKzs3P2BuCgdop5h2jqnDbx",
     "precio": 3000,
     "stock": 10
@@ -74,6 +76,7 @@
     "id": 12,
     "titulo": "Botines",
     "descripcion": "Los botines son un tipo de zapato que cubre el tobillo. Son una buena opción para climas fríos o húmedos. Al elegir botines, es importante considerar la altura del tacón y el material. Los botines con tacones bajos son más cómodos para caminar, mientras que los botines con tacones más altos pueden ser más elegantes. El cuero es la opción más duradera, mientras que la gamuza o el lienzo son más informales.",
+    "categoria": "Calzado",
     "imagen": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSSjZGPR5TG_f04PHRVhYkAbI3CXO90f4vdPIOK103vbBSa7z_jdtpvZHkrZG0h",
     "precio": 2500,
     "stock": 10

@@ -12,6 +12,7 @@ const ItemDetail = ({item}) => {
                 <h3 className="titulo">{item.titulo}</h3>
                 <p className="descripcion">{item.descripcion}</p>
                 <p className="precio">{item.precio}</p>
+                <a href="#" className="btn btn-primary">Añadir al carrito</a>
             </div>
         </div>
 
