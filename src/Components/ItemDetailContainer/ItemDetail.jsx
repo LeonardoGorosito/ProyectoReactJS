@@ -1,7 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
+import ItemCount from '../ItemCount/ItemCount'
+import './ItemDetail.css'
+
+
 
 const ItemDetail = ({item}) => {
 
+  const [cantidad, setCantidad] = useState(1)
+
+  const handleRestar= () => {
+      cantidad > 1 && setCantidad (cantidad - 1)
+  }
+
+  const handleSumar = () =>{
+  cantidad < item.stock && setCantidad (cantidad + 1) 
+  }
+
+  const handleAgregar = () =>{
+    console.log({...item, cantidad})
+}
 
 
   return (
@@ -11,8 +28,10 @@ const ItemDetail = ({item}) => {
             <div>
                 <h3 className="titulo">{item.titulo}</h3>
                 <p className="descripcion">{item.descripcion}</p>
-                <p className="precio">{item.precio}</p>
-                <a href="#" className="btn btn-primary">Añadir al carrito</a>
+                <p>stock: {item.stock}</p>
+                <p className="precio">${item.precio}</p>
+                <ItemCount cantidad={cantidad} handleSumar={handleSumar} handleRestar={handleRestar} handleAgregar={handleAgregar}/>
+                
             </div>
         </div>
 
