@@ -15,8 +15,8 @@ const Item = ({producto}) => {
         <p className="card-text">$ {producto.precio}</p>
         
 
-        <a href="#" className="btn btn-primary">Añadir al carrito</a>
-        <Link to={`/ProyectoReactJS/item/${producto.id}`} className="btn btn-info">Ver más</Link>
+        
+        <Link to={`/ProyectoReactJS/item/${producto.id}`} className="btn btn-primary">Ver más</Link>
   </div>
 </div>
 

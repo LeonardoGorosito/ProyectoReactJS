@@ -1,11 +1,13 @@
 import React from 'react'
-import CartWidget from './CartWidget'
 import './NavBar.css'
 import { Link } from 'react-router-dom'
+import CartWidget from './CartWidget'
 
 function NavBar() {
   return (
+
     <header className="header">
+
         <Link to="/ProyectoReactJS" className='logo'><h1>MiTiendaOnline</h1></Link>
         
         <nav className='navbar'>
@@ -25,7 +27,6 @@ function NavBar() {
             <Link to="/ProyectoReactJS/Sponsors"><ul>Sponsors</ul></Link>
             <Link to="/ProyectoReactJS/SobreNosotros"><ul>¿Quiénes sómos?</ul></Link>
         </nav>
-
         <div className="cart"><CartWidget/></div>
 
     </header>

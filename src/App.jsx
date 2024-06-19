@@ -5,14 +5,17 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import SobreNosotros from "./Components/Pages/SobreNosotros"
 import Sponsors from "./Components/Pages/Sponsors"
 import Footer from "./Components/Footer/Footer"
-
- 
+import { CartProvider } from "./Components/context/CartContext"
+import Carrito from "./Components/Cart/Carrito"
 
 
 function App() {
-
   return (
     
+
+    <div>
+      <CartProvider>
+
       <BrowserRouter>
         < NavBar />
 
@@ -22,15 +25,16 @@ function App() {
             <Route path= "/ProyectoReactJS/item/:id" element= {<ItemDetailContainer/>}/>
             <Route path= "/ProyectoReactJS/SobreNosotros" element= {<SobreNosotros/>}/>
             <Route path= "/ProyectoReactJS/Sponsors" element={<Sponsors/>}/>
+            <Route path= "/ProyectoReactJS/Carrito" element={<Carrito/>}/>
     
           </Routes>
 
           <Footer/>
           
           
-      </BrowserRouter>
-    
-    
+      </BrowserRouter>      
+      </CartProvider>
+      </div>
   
   )
 }
