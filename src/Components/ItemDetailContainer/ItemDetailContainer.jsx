@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import ItemDetail from './ItemDetail'
 import { useParams } from 'react-router-dom'
-import { pedirItemPorId } from '../helpers/pedirDatos'
+import { doc, getDoc } from 'firebase/firestore'
+import { db } from '../../Firebase/client'
 
 const ItemDetailContainer = () => {
 
@@ -11,10 +12,13 @@ const ItemDetailContainer = () => {
     
 
     useEffect(() => {
-        pedirItemPorId(Number(id))
-            .then((res)=> {
-                setItem (res)
-            })
+        const docRef = doc(db,"producto", id)
+        getDoc(docRef)
+          .then((resp) => {
+            setItem(
+              {...resp.data(), id: resp.id}
+            )
+          })
     }, [id])
     
 

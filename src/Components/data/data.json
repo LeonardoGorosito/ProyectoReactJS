@@ -34,11 +34,11 @@
     "categoria": "Abrigos",
     "imagen": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRPZ8rp5M4FETipCgajiH4bUs3J9-lVAv9LdIkL-_piaJ6KWRSaJlEIVZ0dL81p",
     "precio": 2500,
-    "stock": 1
+    "stock": 10
     },
 {
     "id": 5,
-    "titulo": "Abrigo - Plumas",
+    "titulo": "Abigo - Plumras",
     "descripcion": "Un abrigo ligero y cálido, perfecto para el invierno. Está relleno de plumas o plumón, lo que lo convierte en una prenda muy aislante. El abrigo de plumas es ideal para usar en capas, ya que se puede poner sobre otras prendas para mayor calidez.",
     "categoria": "Abrigos",
     "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsGX58VRial_SlIpqPQbkrmErz2xUMIZ5fWgATZO56kjSQviKWRm5JJziWQ-sg",
