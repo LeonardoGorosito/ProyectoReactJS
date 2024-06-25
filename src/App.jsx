@@ -7,6 +7,7 @@ import Sponsors from "./Components/Pages/Sponsors"
 import Footer from "./Components/Footer/Footer"
 import { CartProvider } from "./Components/context/CartContext"
 import Carrito from "./Components/Cart/Carrito"
+import Checkout from "./Components/Checkout/Checkout"
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Route path= "/ProyectoReactJS/SobreNosotros" element= {<SobreNosotros/>}/>
             <Route path= "/ProyectoReactJS/Sponsors" element={<Sponsors/>}/>
             <Route path= "/ProyectoReactJS/Carrito" element={<Carrito/>}/>
+            <Route path= "/ProyectoReactJS/Checkout" element={<Checkout/>}/>
     
           </Routes>
 

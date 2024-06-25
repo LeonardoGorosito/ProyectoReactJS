@@ -12,7 +12,8 @@ const SobreNosotros = () => {
 
   return (
 
-    <div><h1>Sobre Nosotros</h1>
+    <div>
+      <h1>Sobre Nosotros</h1>
 
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus minima voluptates, voluptatum dignissimos aut iusto recusandae autem blanditiis velit cum temporibus, expedita quibusdam nisi ipsum quod. Excepturi eos libero nihil.
     Facere magni obcaecati temporibus, sapiente quam explicabo nostrum quidem dolores cumque eos consectetur, sequi impedit animi delectus debitis! Porro, at natus. Saepe repellat recusandae tempore, facilis voluptate officia rem ullam?
