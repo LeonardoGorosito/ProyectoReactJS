@@ -35,11 +35,18 @@ const Carrito = () => {
         
     {  
             carrito.length > 0 ?
-            <div className='d-flex justify-content-end gap-4 m-1'>
+            
+            <div class="btn-finish-cart">
+
+            <div className='d-flex justify-content-end gap-3 m-1 '>
+                
                 <h2>Precio total: ${precioTotal()}</h2>
+                
                 
                 <button onClick={handleVaciar} className='btn-secondary'>Vaciar 🗑️</button>
                 <Link to={"/ProyectoReactJS/Checkout"} className='btn-primary  '>Finalizar Compra</Link>
+
+            </div>
                 
             </div> :
             <h2>El carrito está vacío :(</h2>

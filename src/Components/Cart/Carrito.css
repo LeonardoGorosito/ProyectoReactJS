@@ -39,6 +39,12 @@ display: grid;
     
   }
 
+  .btn-finish-cart{
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+  }
+
 
 
 

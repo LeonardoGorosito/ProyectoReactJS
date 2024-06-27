@@ -1,9 +1,23 @@
 
-.productos {
+.productos { 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     padding-block: 2rem;
+    width: 90%;
+    
+
+
+}
+
+.card{
+    display: flex;
+  justify-content: center;
+  align-items: start;
+  justify-self: center;
+  align-self: center;
+  margin-left: 2rem;
+
 
 }
 
