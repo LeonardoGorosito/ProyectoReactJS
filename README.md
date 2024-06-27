@@ -11,9 +11,10 @@ Carrito de compras y proceso de pago.
 Gestión de pedidos y utilizacion de Firebase
 
 
-![Imagenes del Proyecto](https://imgur.com/Q8H1lKN)
-!(https://imgur.com/ZVR2DWO)
-!(https://imgur.com/TwevuAN)
+![Imagenes del Proyecto](https://imgur.com/Q8H1lKN.png)
+![Imagen del proyecto 2](https://imgur.com/ZVR2DWO.png)
+![Imagen del proyecto 3](https://imgur.com/TwevuAN.png)
+
 
 
 
