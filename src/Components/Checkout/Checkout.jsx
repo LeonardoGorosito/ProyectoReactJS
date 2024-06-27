@@ -3,6 +3,7 @@ import { CartContext } from '../context/CartContext'
 import { useForm } from 'react-hook-form'
 import { db } from '../../Firebase/client'
 import { collection, addDoc, doc } from 'firebase/firestore'
+import './Checkout.css'
 
 const Checkout = () => {
 
@@ -20,7 +21,7 @@ const Checkout = () => {
 
     }
 
-    console.log(pedido)
+    
 
     const pedidosRef = collection(db, "pedidos")
 
@@ -35,16 +36,17 @@ const Checkout = () => {
             <div>
                 <h1>Muchas gracias por tu compra :D</h1>
                 <p>Tu número de pedido es: {pedidoId}</p>
+                
             </div>
         )
     }
 
 
   return (
-    <div>
+    <div className='form'>
         <h1>Finalizar tu pedido</h1>
-        <form onSubmit={handleSubmit(comprar)}>
-        <   input type="text" placeholder='Ingresá tu nombre' {...register("nombre")}/>
+        <form className='form-checkout' onSubmit={handleSubmit(comprar)}>
+            <input type="text" placeholder='Ingresá tu nombre' {...register("nombre")}/>
             <input type="email" placeholder='Ingresá tu e-mail' {...register("email")}/>
             <input type="phone" placeholder='Ingresá tu número de celular' {...register("celular")}/>
 

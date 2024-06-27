@@ -20,13 +20,13 @@ const Carrito = () => {
                 <div className='item-carrito' key={prod.id}>                    
                 <h2>{prod.titulo}</h2>
                 <img src={prod.imagen} className='item-imagen-carrito'/>
-                <div className='item-details'>
+                
                 <div className='cart-summary'>
                 <p>Precio unit: ${prod.precio}</p>
                 <p>Cantidad: {prod.cantidad}</p>
                 <p>Precio total: ${prod.precio*prod.cantidad}</p>
                 </div>
-                </div>
+                
                 </div>
                 
             ))
@@ -35,7 +35,7 @@ const Carrito = () => {
         
     {  
             carrito.length > 0 ?
-            <div className='d-flex justify-content-end gap-5'>
+            <div className='d-flex justify-content-end gap-4 m-1'>
                 <h2>Precio total: ${precioTotal()}</h2>
                 
                 <button onClick={handleVaciar} className='btn-secondary'>Vaciar 🗑️</button>
