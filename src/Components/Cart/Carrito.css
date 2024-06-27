@@ -1,0 +1,44 @@
+.container-carrito{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.item-carrito{
+    
+display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  text-align: center;
+  justify-content: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  
+}
+
+
+.item-imagen-carrito{
+    max-width: 100%;
+    width: 60px;
+    height: auto;
+    text-align: center;
+    
+
+}
+
+.item-details{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cart-summary {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+  }
+
+
+
+

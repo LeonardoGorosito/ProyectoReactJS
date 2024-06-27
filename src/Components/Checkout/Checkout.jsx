@@ -33,7 +33,7 @@ const Checkout = () => {
     if(pedidoId) {
         return(
             <div>
-                <h1>Muchas gracias por tu compra!</h1>
+                <h1>Muchas gracias por tu compra :D</h1>
                 <p>Tu número de pedido es: {pedidoId}</p>
             </div>
         )

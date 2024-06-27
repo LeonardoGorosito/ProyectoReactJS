@@ -2,13 +2,19 @@ import { useForm } from 'react-hook-form'
 import '../Pages/Pages.css'
 
 
+
 const SobreNosotros = () => {
 
   const { register, handleSubmit } = useForm ()
+  
 
   const enviar = (data) =>{
-    console.log(data)
+
+   console.log(data)
+
   }
+
+
 
   return (
 
@@ -32,6 +38,7 @@ const SobreNosotros = () => {
 
     <h2>CONTACTANOS</h2>
     <form onSubmit={handleSubmit(enviar)}>
+      
 
       <input type="text" placeholder='Ingresá tu nombre' {...register("nombre")}/>
       <input type="email" placeholder='Ingresá tu e-mail' {...register("email")}/>
